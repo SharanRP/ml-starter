@@ -1,0 +1,47 @@
+{
+  "name": "create-ml-t3-app",
+  "version": "1.0.0",
+  "description": "Create a new ML-powered web app with the T3 stack and Replicate AI integration",
+  "main": "index.js",
+  "bin": {
+    "create-ml-t3-app": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js test-app",
+    "prepublishOnly": "echo 'Ready to publish create-ml-t3-app'"
+  },
+  "keywords": [
+    "nextjs",
+    "t3-stack",
+    "typescript",
+    "tailwindcss",
+    "trpc",
+    "prisma",
+    "ml",
+    "ai",
+    "replicate",
+    "template",
+    "boilerplate",
+    "create-app",
+    "cli"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/create-ml-t3-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/create-ml-t3-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/ml-t3-template#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "preferGlobal": true
+}

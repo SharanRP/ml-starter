@@ -1,0 +1,23 @@
+{
+  "buildCommand": "yarn build",
+  "devCommand": "yarn dev",
+  "installCommand": "yarn install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXTAUTH_URL": "@nextauth_url",
+    "NEXTAUTH_SECRET": "@nextauth_secret",
+    "AUTH_SECRET": "@auth_secret",
+    "AUTH_DISCORD_ID": "@auth_discord_id",
+    "AUTH_DISCORD_SECRET": "@auth_discord_secret",
+    "DATABASE_URL": "@database_url",
+    "REPLICATE_API_TOKEN": "@replicate_api_token",
+    "MODAL_TOKEN_ID": "@modal_token_id",
+    "MODAL_TOKEN_SECRET": "@modal_token_secret"
+  },
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  }
+}
