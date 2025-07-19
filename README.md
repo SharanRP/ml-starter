@@ -21,20 +21,20 @@ A production-ready ML web app template built with the [T3 Stack](https://create.
 
 ### Option 1: NPX (Recommended)
 ```bash
-npx create-ml-t3-app@latest my-ml-app
+npx create-ml-starter@latest my-ml-app
 cd my-ml-app
 yarn dev
 ```
 
 ### Option 2: Manual Clone
 ```bash
-git clone https://github.com/yourusername/ml-t3-template.git my-ml-app
+git clone https://github.com/SharanRP/ml-starter.git my-ml-app
 cd my-ml-app
 yarn install && node setup.js
 yarn dev
 ```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/ml-t3-template&env=REPLICATE_API_TOKEN,DATABASE_URL,AUTH_SECRET)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SharanRP/ml-starter&env=REPLICATE_API_TOKEN,DATABASE_URL,AUTH_SECRET)
 
 ## ⚙️ Setup
 
