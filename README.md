@@ -1,3 +1,5 @@
+[![NPM version](https://img.shields.io/npm/v/create-ml-starter?color=blue)](https://www.npmjs.com/package/create-ml-starter)
+[![GitHub stars](https://img.shields.io/github/stars/SharanRP/ml-starter?style=social)](https://github.com/SharanRP/ml-starter)
 # ML T3 Template 🤖
 
 A production-ready ML web app template built with the [T3 Stack](https://create.t3.gg/) and [Replicate AI](https://replicate.com). Features a clean dark theme and comprehensive ML capabilities.
